@@ -12,8 +12,8 @@ float lat = 0.0000,lon = 0.0000; // create variable for latitude and longitude o
 TinyGPS gps;
 void setup() {
   serialSIM800.begin(9600);
-  pinMode(ledPin, OUTPUT);
-  pinMode(interruptPin, INPUT_PULLUP);
+ // pinMode(ledPin, OUTPUT);
+ // pinMode(interruptPin, INPUT_PULLUP);
  // attachInterrupt(digitalPinToInterrupt(interruptPin), action, CHANGE);
 }
 
